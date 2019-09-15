@@ -10,13 +10,15 @@
     </div>
 @endcan
 <div class="card">
-    <div class="card-header">
-        {{ trans('cruds.role.title_singular') }} {{ trans('global.list') }}
+    <div class="card-header card-header-primary">
+        <h4 class="card-title">
+            {{ trans('cruds.role.title_singular') }} {{ trans('global.list') }}
+        </h4>
     </div>
 
     <div class="card-body">
         <div class="table-responsive">
-            <table class=" table table-bordered table-striped table-hover datatable datatable-Role">
+            <table class="table table-striped table-hover datatable datatable-Role">
                 <thead>
                     <tr>
                         <th width="10">
@@ -123,7 +125,8 @@
     order: [[ 1, 'desc' ]],
     pageLength: 100,
   });
-  $('.datatable-Role:not(.ajaxTable)').DataTable({ buttons: dtButtons })
+  $('.datatable-Role:not(.ajaxTable)').DataTable(
+      { buttons: dtButtons })
     $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
         $($.fn.dataTable.tables(true)).DataTable()
             .columns.adjust();

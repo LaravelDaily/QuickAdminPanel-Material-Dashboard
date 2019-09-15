@@ -10,13 +10,15 @@
     </div>
 @endcan
 <div class="card">
-    <div class="card-header">
-        {{ trans('cruds.user.title_singular') }} {{ trans('global.list') }}
+    <div class="card-header card-header-primary">
+        <h4 class="card-title">
+            {{ trans('cruds.user.title_singular') }} {{ trans('global.list') }}
+        </h4>
     </div>
 
     <div class="card-body">
         <div class="table-responsive">
-            <table class=" table table-bordered table-striped table-hover datatable datatable-User">
+            <table class=" table table-striped table-hover datatable datatable-User">
                 <thead>
                     <tr>
                         <th width="10">

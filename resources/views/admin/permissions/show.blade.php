@@ -2,8 +2,10 @@
 @section('content')
 
 <div class="card">
-    <div class="card-header">
-        {{ trans('global.show') }} {{ trans('cruds.permission.title') }}
+    <div class="card-header card-header-primary">
+        <h4 class="card-title">
+            {{ trans('global.show') }} {{ trans('cruds.permission.title') }}
+        </h4>
     </div>
 
     <div class="card-body">

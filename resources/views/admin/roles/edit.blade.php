@@ -2,8 +2,10 @@
 @section('content')
 
 <div class="card">
-    <div class="card-header">
-        {{ trans('global.edit') }} {{ trans('cruds.role.title_singular') }}
+    <div class="card-header card-header-primary">
+        <h4 class="card-title">
+            {{ trans('global.edit') }} {{ trans('cruds.role.title_singular') }}
+        </h4>
     </div>
 
     <div class="card-body">
