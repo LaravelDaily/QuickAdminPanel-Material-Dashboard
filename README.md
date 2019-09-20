@@ -4,6 +4,11 @@ Simple Laravel adminpanel based on [Material Dashboard theme from Creative Tim](
 
 Generated with [QuickAdminPanel generator](https://2019.quickadminpanel.com) and manually applied front-end theme.
 
+What's inside:
+
+- Login/Register functionality with default Laravel 
+- Managing Users/Roles/Permissions CRUDs: tables, and forms
+
 ![Laravel Material Dashboard screenshot](https://laraveldaily.com/wp-content/uploads/2019/09/Screen-Shot-2019-09-20-at-1.03.22-PM.png)
 
 ![Laravel Material Dashboard screenshot 02](https://laraveldaily.com/wp-content/uploads/2019/09/Screen-Shot-2019-09-20-at-1.03.41-PM.png)
